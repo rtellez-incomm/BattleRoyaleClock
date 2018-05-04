@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:background="@drawable/star_wars_day"
-
         />
     <com.tomerrosenfeld.customanalogclockview.CustomAnalogClock
         android:id="@+id/analog_clock"
@@ -22,5 +21,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
     />
+    <ImageView
+        android:layout_height="wrap_content"
+        android:contentDescription="vader lifts"
+        android:layout_width="wrap_content"
+        android:background="@drawable/lift"
+        android:scaleType = "fitEnd"
+        />
 
 </android.support.constraint.ConstraintLayout>
