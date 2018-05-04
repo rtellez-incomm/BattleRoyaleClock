@@ -21,12 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
     />
-    <ImageView
-        android:layout_height="wrap_content"
-        android:contentDescription="vader lifts"
-        android:layout_width="wrap_content"
-        android:background="@drawable/lift"
-        android:scaleType = "fitEnd"
-        />
+
 
 </android.support.constraint.ConstraintLayout>
